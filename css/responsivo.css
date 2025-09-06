@@ -1,0 +1,366 @@
+@media (max-width:768px) {
+
+    #MQ {
+        display: flex;
+    }
+
+    #NoMQ {
+        display: none;
+    }
+
+    /* header */
+
+    header {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        padding: 0 5%;
+    }
+
+    .handing-menu {
+        display: none;
+    }
+
+    .login {
+        position: initial;
+    }
+
+    .Dropdown-container {
+        position: relative;
+    }
+
+    #hamburguer-font-size {
+        font-size: 40px;
+    }
+
+    #MQ .handing-menu {
+        display: none;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 70px;
+z-index: 1000;
+    }
+
+    #dropdown-hamburguer:checked~.handing-menu {
+        display: flex;
+    }
+
+    /* Home */
+
+    .container {
+        height: 450px;
+    }
+
+    .content-text {
+        position: initial;
+    }
+
+    .img-ilustracao {
+        display: none;
+    }
+
+    /* Clients */
+
+    .clients {
+        text-align: center;
+        padding: 0;
+    }
+
+    .clients-logo {
+        justify-content: initial;
+    }
+
+    /* Comunnity */
+
+    .Comunnity-texto-container {
+        text-align: center;
+    }
+
+    .Frame-4-Comunnity {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+
+    /* Unlock */
+
+    .Unlock {
+        justify-content: initial;
+    }
+
+    .Unlock-container img {
+        display: none;
+    }
+
+    .Frame-6-Body {
+        height: auto;
+    }
+
+    /* Achiviements */
+
+    .Achiviements {
+        flex-direction: column;
+        gap: 30px;
+        align-items: initial;
+
+    }
+
+    /* Calender */
+
+    .Calender-Container {
+        display: block;
+    }
+
+    /* Customers */
+
+    .Customers {
+        justify-content: initial;
+    }
+
+    #Img-9-Customers {
+        display: none;
+    }
+
+    /* Comunnity Update*/
+
+    .Frame-15-Comunnity-Update {
+        gap: 20px;
+    }
+
+    .Comunnity-Update-Container h3 {
+        line-height: auto;
+    }
+
+    /* Footer */
+
+    .Links-Footer {
+        display: none;
+    }
+
+    .Company-Info {
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+/* Celular */
+
+@media (max-width:425px) {
+
+
+    #NoMQ {
+        display: none;
+    }
+
+    #MQ {
+        display: flex;
+    }
+
+
+    #MQ .handing-menu {
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        justify-content: center;
+        gap: 24px;
+        flex-direction: row;
+        font-size: 13px;
+        background-color: #0A369D;
+        padding: 10px;
+    }
+
+    #MQ .handing-menu a {
+        color: white;
+    }
+
+
+    /* Container */
+
+    .container {
+        justify-content: center;
+        height: 150px;
+        padding: 20px 0;
+
+    }
+
+    .content-text h1 {
+        font-size: 30px;
+    }
+
+    .content-text p {
+        font-size: 12px;
+    }
+
+    /* Div clients */
+
+    .clients {
+        text-align: initial;
+        display: none;
+    }
+
+
+    /* Comunnity */
+
+
+
+    .Comunnity-texto-container h3 {
+        font-size: 25px;
+    }
+
+    .Comunnity-texto-container p {
+        font-size: 12px;
+    }
+
+    .Frame-4-Comunnity {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Unlock */
+
+    .Unlock-container {
+        padding: 0;
+    }
+
+    .Frame-5-Container {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .Frame-5-Container h3 {
+        font-size: 24px;
+    }
+
+    .Frame-5-Container p {
+        font-size: 13px;
+    }
+
+    .Frame-6-Body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Achiviements */
+
+    .Achiviements {
+        padding: 45px 0;
+        text-align: center;
+    }
+
+    .Section-Heading p {
+        font-size: 19px;
+    }
+
+    .Section-Heading-Text h3 {
+        font-size: 30px;
+    }
+
+    /* Calender */
+
+
+
+    .Calender-Container {
+        padding: 0;
+        ;
+    }
+
+    .Frame-6-Calender {
+        align-items: center;
+    }
+
+    .Frame-5-Calender {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .Frame-5-Calender h3 {
+        font-size: 30px;
+    }
+
+    .Frame-5-Calender p {
+        font-size: 13px;
+    }
+
+    /* Customers  */
+
+    .Customers {
+        padding: 0;
+    }
+
+    .Customers-Content {
+        padding: 0 15px;
+    }
+
+    .Frame-7-Customers-text h3 {
+        font-size: 18px;
+    }
+
+    .Frame-10-Customers {
+        display: none;
+    }
+
+    .Frame-13-Customers {
+        padding: 0 15px;
+    }
+
+    /* Comunnity update */
+
+    .Comunnity-Update-Container h3 {
+        font-size: 30px;
+    }
+
+    .Comunnity-Update-Container p {
+        font-size: 15px;
+        /* text-align: initial; */
+    }
+
+    .Frame-15-Comunnity-Update {
+        flex-direction: column;
+    }
+
+    .Content-Card-Comunnity-Update {
+        position: relative;
+    }
+
+    .Content-Card {
+        bottom: 0;
+        text-align: left;
+    }
+
+    /* footer */
+
+    .Frame-16-Footer h2 {
+        font-size: 35px;
+    }
+
+    .Footer-Content {
+        flex-direction: column;
+    }
+
+    .Company-Info {
+        flex-direction: column-reverse;
+        text-align: center;
+
+    }
+
+    .Copyright {
+        flex-direction: column;
+    }
+
+    .Social-Links {
+        align-self: center;
+    }
+
+    .Footer-Email {
+        display: none;
+    }
+
+}

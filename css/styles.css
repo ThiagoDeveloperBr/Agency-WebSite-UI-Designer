@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+#MQ {
+    display: none;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+}
+
+header {
+    margin-top: 1rem;
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    /* background-color: #F5F7FA; */
+    /* border: 5px solid red; */
+}
+
+.logo-header {
+    position: absolute;
+    left: 105px;
+
+}
+
+header img {
+    width: 154.49px;
+    height: 24px;
+
+}
+
+.handing-menu {
+    display: flex;
+    gap: 50px;
+    /* background: rgb(255, 157, 157); */
+
+}
+
+.handing-menu a {
+    color: #18191F;
+    text-decoration: none;
+    /* background: rgb(255, 21, 21); */
+}
+
+.handing-menu a:hover {
+    border-bottom: 2px solid #18191F;
+}
+
+.login {
+    display: block;
+    position: absolute;
+    right: 120px;
+}
+
+.login a {
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.login a:hover {
+    opacity: 0.5;
+}
+
+#Login-button {
+    color: #0A369D;
+    margin: 0 20px;
+    padding: 0;
+}
+
+#SigUp-button {
+    background-color: #0A369D;
+    color: white;
+    border-radius: 6px;
+}
+
+#dropdown-hamburguer {
+    display: none;
+}
+
+/* Seção do Conteudo 1 */
+
+.Home {
+    display: grid;
+    gap: 10px;
+    /* border: 2px solid red; */
+}
+
+.container {
+    /* background-color: #F5F7FA; */
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 599px;
+}
+
+
+.content-text {
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    left: 144px;
+    top: auto;
+}
+
+.content-text h1 {
+    font-size: 64px;
+}
+
+.content-text p {
+    color: #717171;
+}
+
+#Preto {
+    color: #4D4D4D;
+}
+
+#Verde {
+    color: #0A369D;
+}
+
+.img-ilustracao {
+    position: absolute;
+    right: 144px;
+}
+
+.img-ilustracao img {
+    width: 600px;
+    height: 600px;
+}
+
+/* Div clients */
+
+.clients {
+    text-align: center;
+    display: grid;
+    gap: 60px;   
+    /* padding: 0 150px; */
+    /* border: 2px solid red; */
+}
+
+.clients-p {
+    /* display: grid; */
+    gap: 5px;
+}
+
+.clients h2 {
+    color: #4D4D4D;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.clients p {
+    color: #717171;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.clients-logo {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+}
+
+
+/* Div Comunnity */
+
+.Comunnity {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* border: 2px solid black; */
+}
+
+.Comunnity-texto-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    /* border: 2px solid red; */
+}
+
+.Comunnity-texto-container h3 {
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+}
+
+.Comunnity-texto-container p {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #717171;
+}
+
+#Card-1 {
+    display: grid;
+    gap: 5px;
+    padding: 17px 22px;
+    width: 250px;
+    height: autopx;
+    /* border: 2px solid green; */
+    text-align: center;
+    box-shadow: 0px 2px 3px 0px #ABBED133;
+    border-radius: 5px;
+}
+
+#Card-1 h3 {
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+}
+
+.img-title {
+    /* border: 2px solid black; */
+    padding: 0;
+}
+
+.img-title img {
+    /* border: 2px solid blue; */
+    width: 40px;
+    height: 40px;
+}
+
+.descricao {
+    display: grid;
+    gap: 6px;
+    /* border: 3px solid red; */
+}
+
+#Card-1 p {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    color: #717171;
+    text-align: center;
+}
+
+.Frame-4-Comunnity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+/* Seção Body */
+
+.body {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.Unlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Unlock-container {
+    display: flex;
+    padding: 0 100px;
+    display: flex;
+    gap: 66px;
+    justify-content: center;
+
+}
+
+.Unlock-container img {
+    width: 500px;
+    height: 500px;
+}
+
+.Frame-5-Container {
+    display: grid;
+    gap: 11px;
+}
+
+.Frame-5-Container h3 {
+    font-size: 35px;
+    font-family: "Inter", sans-serif;
+    color: #4D4D4D;
+}
+
+.Frame-5-Container p {
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    color: #717171;
+}
+
+.Frame-6-Body {
+    width: 418px;
+    height: 119px;
+    display: grid;
+    gap: 22px;
+}
+
+.Frame-6-Body a {
+    padding: 10px 22px;
+    background: #0A369D;
+    border-radius: 2px;
+    text-decoration: none;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    width: fit-content;
+    transition: all 0.5s;
+}
+
+.Frame-6-Body a:hover {
+    opacity: 0.5;
+}
+
+/* Div Achiviments */
+
+.Achiviements {
+    display: flex;
+    padding: 45px 100px;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+
+
+}
+
+.Section-Heading {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    justify-content: center;
+    align-self: center;
+
+}
+
+.Section-Heading-Text {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+
+}
+
+.Section-Heading-Text h3 {
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+}
+
+.Section-Heading p {
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: #18191F;
+}
+
+/* Div Counts */
+
+.Counts {
+    display: grid;
+    gap: 28px;
+justify-content: center;
+align-items: center;
+}
+
+.Row1 {
+    display: flex;
+    gap: 21px;
+}
+
+.container-row1 {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    gap: 11px;
+    width: 177px;
+}
+
+.container-row1 h4 {
+    font-size: 28px;
+    color: #4D4D4D;
+}
+
+.container-row1 p {
+    font-size: 15px;
+    color: #717171;
+}
+
+.container-row1 img {
+    width: 36px;
+    height: 36px;
+}
+
+/* Div Calender */
+
+.Calender-Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    gap: 67px;
+}
+
+.Frame-5-Calender {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 418px;
+}
+
+.Frame-5-Calender h3 {
+    color: #4D4D4D;
+    font-size: 40px;
+
+}
+
+.Frame-5-Calender p {
+    color: #717171;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.Frame-6-Calender {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.Frame-6-Calender a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    background-color: #0A369D;
+    font-family: "Inter", sans-serif;
+    width: fit-content;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+.Frame-6-Calender a:hover {
+    opacity: 0.5;
+}
+
+/* Div Customers */
+
+.Customers {
+    display: flex;
+    padding: 23px 100px;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+
+.Frame-11-Customers {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 520px;
+}
+
+.Customers-Content {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.Customers-Content p {
+    font-size: 14px;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.Frame-7-Customers-text {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.Frame-7-Customers-text h3 {
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    color: #0A369D;
+}
+
+.Frame-7-Customers-text p {
+    font-size: 13px;
+    color: #717171;
+    font-family: "Inter", sans-serif;
+
+}
+
+.Frame-14-Customers {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+}
+
+.Frame-10-Customers {
+    display: flex;
+    gap: 28px;
+}
+
+.Frame-13-Customers {
+    display: flex;
+    gap: 6px;
+    /* border: 2px solid red; */
+}
+
+.Frame-13-Customers a {
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.Frame-13-Customers a:hover {
+    opacity: 0.5;
+}
+
+.Frame-13-Customers h3 {
+    font-size: 13px;
+    font-family: "Inter", sans-serif;
+    color: #0A369D;
+    font-weight: 600;
+}
+
+.Frame-13-Customers img {
+    width: 18px;
+    height: 18px;
+}
+
+.Comunnity-Update {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Comunnity-Update-Container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+
+.Comunnity-Update-Container h3 {
+    color: #4D4D4D;
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+
+.Comunnity-Update-Container p {
+    color: #717171;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    line-height: auto;
+    font-weight: 400;
+}
+
+.Frame-15-Comunnity-Update {
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    padding: 0 30px;
+    gap: 50px;
+    /* border: 2px solid red; */
+}
+
+.Content-Card-Comunnity-Update {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 66px;
+    height: 255px;
+    /* border: 2px solid green; */
+
+}
+
+
+#Img-Comunnity-Update {
+    width: 200px;
+    height: 200px;
+}
+
+.Content-Card {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding: 11px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.Content-Card p {
+    color: #717171;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Inter", sans-serif;
+
+    font-weight: 600;
+}
+
+.Frame-13-Comunnity-Update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.Frame-13-Comunnity-Update a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.5s;
+}
+
+.Frame-13-Comunnity-Update a:hover {
+    opacity: 0.5;
+}
+
+.Frame-13-Comunnity-Update h3 {
+    color: #0A369D;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+.Frame-15-Comunnity-Update img {
+    width: 18px;
+    height: 18px;
+}
+
+.Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Frame-16-Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    padding: 22px 0;
+}
+
+.Frame-16-Footer h2 {
+    color: #263238;
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    line-height: 53px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Frame-16-Footer a {
+    background-color: #0A369D;
+    color: white;
+    text-decoration: none;
+    padding: 10px 22px;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    width: fit-content;
+    transition: all 1s;
+}
+
+.Frame-16-Footer a:hover {
+    opacity: 0.5;
+}
+
+.Footer-Content {
+    padding: 44px 114px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 87px;
+    background-color: #0B0D17;
+    width: 100%;
+
+
+}
+
+.Company-Info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    text-align: left;
+    /* border: 2px solid red; */
+    width: 300px;
+    margin-left: 115px;
+}
+
+
+.Copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Copyright p {
+    color: #F5F7FA;
+    font-size: 15px;
+    line-height: 14px;
+    font-family: "Inter", sans-serif;
+    
+
+}
+
+.Social-Links {
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    width: fit-content;
+
+}
+
+
+
+.Social-Links a {
+    display: flex;
+    gap: 10px;
+    /* border: 2px solid rgb(52, 255, 11); */
+}
+
+.Social-Links img {
+    /* border: 2px solid red; */
+    width: 25px;
+    height: 25px;
+    transition: all 0.5s;
+}
+
+.Social-Links img:hover {
+    opacity: 0.5;
+}
+
+.Links-Footer {
+    display: flex;
+    /* border: 3px solid blue; */
+    margin-right: 115px;
+
+
+}
+
+.Coluna-footer {
+    /* border: 2px solid red; */
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    color: white;
+    font-family: "Inter", sans-serif;
+    line-height: 20px;
+}
+
+.Coluna-footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /* border: 2px solid green; */
+    padding-left: 0;
+}
+
+
+
+.Coluna-footer a {
+    color: #F5F7FA;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    line-height: 10px;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.Coluna-footer a:hover {
+    opacity: 0.5;
+    transform: scale(1.1) translateX(-10px);
+    }
+
+.Footer-Email {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-family: "Inter", sans-serif;
+
+}
+
+.Footer-Email input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 177px;
+    height: 28px;
+    color: white;
+    user-select: text;
+    /* border:2px solid red; */
+}
+
+.Footer-Email input::placeholder {
+    color: #D9DBE1;
+    font-size: 13px;
+    line-height: 14px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+
+
+}
+
+.Email-box {
+    background-color: rgb(213, 0, 255, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    /* border: 2px solid greenyellow; */
+}
+
+.Email-box button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.Email-box button img:hover {
+    opacity: 0.5;
+    transition: all 0.5s;
+}
